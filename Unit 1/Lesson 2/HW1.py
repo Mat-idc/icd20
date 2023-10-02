@@ -1,0 +1,6 @@
+print("What is the largest land animal?")
+print("A) Giraffe")
+print("B) Zebra") 
+print("C) Elephant")
+print("D) Ant")
+print("Correct Answer:" " C) "  "Elephant") 
