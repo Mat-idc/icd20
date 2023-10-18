@@ -73,7 +73,7 @@ r = float(input("Please Enter Radius:"))
 def circumference_of_circle(radius):
     if isinstance(radius, (int, float)):
         return 2 * 3.141592653589793 * radius
-print(circumference_of_circle(round(r,2)))
+print(circumference_of_circle(round(r,2)))'''
 
 #homework 8 *won't print
 
@@ -83,7 +83,7 @@ char = str(input("Please Enter a Character:"))
 def count_char_occurrences(string, char):
     if isinstance(string, str) and isinstance(char, str) and len(char) == 1:
         return string.count(char)
-print(count_char_occurrences(char, str))'''
+print(count_char_occurrences(char, str))
 
 #homework 9 *don't know how to round
 
