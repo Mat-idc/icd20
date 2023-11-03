@@ -41,12 +41,10 @@ def check_number_status(number):
               return "Zero"
           
 #function to calculate the circumfrence of a circle
-def circumfrence_of_circle(radius)
+def circumfrence_of_circle(radius):
      if isinstance(radius, (int, float)):
           return 2 * 3.141592653589793 * radius
      
 #function to count the number of occurences of a chracter in a string
 def count_char_occurences(string, char):
      if isinstance(string, str) and isinstance(char, str) and len(char) ==1:
-          
-        
