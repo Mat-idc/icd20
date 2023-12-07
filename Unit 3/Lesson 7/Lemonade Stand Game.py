@@ -1,7 +1,7 @@
 #importing the random function
 import random
 
-#this will defined the weather
+#this will define the weather
 def weather(num):
     if num==1:
         return "rainy day"
@@ -78,8 +78,8 @@ while True:
 #My pricing strategy was that more customer on nice weather days results - 
 #in a higher profit versus less customers on bad weather days which results in a lower profit, - 
 #since there are less people buying lemonade. If I could improve one thing in my program, -
-#I would make a function that can deter customers from buying lemonade when charged at higher prices, -
-#and make more customers buy lemonade when charged at lower prices.
+#I would make a function that can deter customers from buying lemonade when it's charged at higher prices, -
+#and make more customers buy lemonade when it's charged at lower prices.
 
 
 
