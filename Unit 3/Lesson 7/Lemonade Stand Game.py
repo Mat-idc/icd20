@@ -65,7 +65,7 @@ while True:
     print(f"Your total profit was: {total_profit} cents")
 
     #this asks the user if they want to continue or stop
-    yes_or_no = input("Please enter yes or no if you want to continue:")
+    yes_or_no = input("Please enter yes if you want to continue or no if you don't:")
     if yes_or_no == "no":
         break #this breaks out of the loop
     else:
