@@ -71,3 +71,4 @@ def length_string(s,d):
    
 s = ""
 print(f"{length_string(s,True)}")
+
