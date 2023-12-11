@@ -1,10 +1,11 @@
+#For Loops Practice:
+#while loops run forever while they are true
+#for loops run in a set range
+
 #print the numbers from 1 to 5 
 def example_one():
     for counter in range(1,6): #for every thing we are calling, the counter in the range of 1 to 5 (6 is outside of this range)
         print(counter)
-#while loops run forever while they are true
-#for loops run in a set range
-
 
 example_one()
 
