@@ -1,5 +1,3 @@
-#TO DO
-#round numbers
 import random
 
 # name, health, attacks 1, 2 & 3, defence
