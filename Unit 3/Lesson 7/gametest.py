@@ -1,5 +1,4 @@
-
-
+#practice code for superhero adventure:
 #choose superhero returns the number of the superhero selected by the player (task 1)
 def choose_superhero():
     while True: 
