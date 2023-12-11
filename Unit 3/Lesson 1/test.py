@@ -17,3 +17,9 @@ def non_start(a, b):
   return c+d
 
 print(non_start("Hi, ","Armaan"))
+
+
+#lemonade game test 
+def price():
+    if cup_price > 50 and weather(num) == "rainy day":
+        return random.randint(10,12)
