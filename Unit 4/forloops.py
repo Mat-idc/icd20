@@ -1,5 +1,5 @@
 #For Loops Practice:
-#while loops run forever while they are true
+#while loops run forever until something tells it to stop
 #for loops run in a set range
 
 #print the numbers from 1 to 5 
@@ -34,8 +34,8 @@ def example_three():
 example_three()
 
 def example_four(str):
-    result =""
-    #for i in range(starting index in the string we want to start (first -1), ending index in the string (middle -1), step = how much it goes up or down by (last -1))
+    result =''
+    #for i in range(starting index in the string we want to start (first -1), ending index in the string (middle -1 (this will now include 0)), step = how much it goes up or down by (last -1))
     for i in range(len(str)-1, -1, -1): #this will print whatever str is backwards: (start, end, step) starts at -1, ends str at -1 so it includes the 0 or t in this case, the third -1 starts at the back of the str
         result += str[i]
         print(result)
