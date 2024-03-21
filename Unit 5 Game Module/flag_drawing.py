@@ -20,6 +20,11 @@ while running:
     pygame.draw.rect(screen, (0, 0, 225), pygame.Rect(280, 100, 100, 90))
     pygame.draw.rect(screen, (0, 0, 225), pygame.Rect(260, 100, 100, 90))
     pygame.draw.line(screen,(255,255,0),(260,145),(379,145),20)
+
+
+    font = pygame.font.Font(None,30) #always use none, the size
+    text = font.render('IKEA',True, (0,0,225)) #text to display, smooth, color
+    screen.blit(text,(290,138)) #variable name, location
     pygame.display.update()
 
 
