@@ -113,7 +113,7 @@ while running:
         pygame.display.update()
         time.sleep(10)
         running = False
-
+    
     pygame.display.flip()
 
 
